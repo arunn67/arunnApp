@@ -11,3 +11,4 @@ class infoCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var infoIMG: UIImageView!
     
 }
+

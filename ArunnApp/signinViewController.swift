@@ -11,25 +11,12 @@ class signinViewController: UIViewController, UITextFieldDelegate {
     
     @IBOutlet weak var signinLBL: UILabel!
     
-    @IBOutlet weak var usernameTXT: UITextField!{
-        
-        didSet{
-            usernameTXT.setLeftView(image: UIImage.init(named: "user")!)
-            usernameTXT.tintColor = .darkGray
-//            paswd.isSecureTextEntry = true
-          }
-     }
-    
-    
+    @IBOutlet weak var usernameTXT: UITextField!
     @IBOutlet weak var passwordTXT: UITextField!
-    {
-        
-        didSet{
-            passwordTXT.setLeftView(image: UIImage.init(named: "password")!)
-            passwordTXT.tintColor = .darkGray
-//            passwordTXT.isSecureTextEntry = true
-          }
-     }
+    var passbutton = UIButton()
+    var iconClick = true
+
+    
     
     @IBOutlet weak var signinBTN: UIButton!
     
@@ -78,23 +65,21 @@ class signinViewController: UIViewController, UITextFieldDelegate {
 
         
         
-        class TextField: UITextField {
-
-            let padding = UIEdgeInsets(top: 0, left: 5, bottom: 0, right: 5)
-
-            override open func textRect(forBounds bounds: CGRect) -> CGRect {
-                return bounds.inset(by: padding)
-            }
-
-            override open func placeholderRect(forBounds bounds: CGRect) -> CGRect {
-                return bounds.inset(by: padding)
-            }
-
-            override open func editingRect(forBounds bounds: CGRect) -> CGRect {
-                return bounds.inset(by: padding)
-            }
-        }
+        let emailletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.usernameTXT.frame.size.height))
+        self.usernameTXT.leftView = emailletfpaddingView
+        self.usernameTXT.leftViewMode = .always
         
+        let emailimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        emailimg.image = UIImage.init(named: "user")
+        emailletfpaddingView.addSubview(emailimg)
+        
+        let passletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.passwordTXT.frame.size.height))
+        self.passwordTXT.leftView = passletfpaddingView
+        self.passwordTXT.leftViewMode = .always
+        
+        let passimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        passimg.image = UIImage.init(named: "password")
+        passletfpaddingView.addSubview(passimg)
         
         
         self.orLBL.text = "Or connect with"
@@ -103,6 +88,16 @@ class signinViewController: UIViewController, UITextFieldDelegate {
         
         self.forgotpassBTN.setTitle("forgot password ? ", for: .normal )
         self.forgotpassBTN.setTitleColor(UIColor (red: 97.0/255.0, green: 94.0/255.0, blue: 98.0/255.0, alpha: 1.0), for: .normal)
+        let rightpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.passwordTXT.frame.size.height))
+        self.passwordTXT.rightView = rightpaddingView
+        self.passwordTXT.rightViewMode = .always
+        
+        self.passbutton = UIButton(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        self.passwordTXT.isSecureTextEntry = true
+        passbutton.setImage(UIImage(named: "show"), for: .normal)
+        rightpaddingView.addSubview(passbutton)
+        
+        self.passbutton.addTarget(self, action: #selector(pressed), for: .touchUpInside)
         
 
         
@@ -222,23 +217,22 @@ class signinViewController: UIViewController, UITextFieldDelegate {
         self.navigationController?.popViewController(animated: true)
 
     }
+    @objc func pressed() {
+        if iconClick {
+            self.passwordTXT.isSecureTextEntry = false
+            passbutton.setImage(UIImage(named: "hide"), for: .normal)
+        } else {
+            self.passwordTXT.isSecureTextEntry = true
+            passbutton.setImage(UIImage(named: "show"), for: .normal)
+        }
+        iconClick = !iconClick
+    }
     
 }
 
 
 
-extension UITextField {
-  func setLeftView(image: UIImage) {
-    let iconView = UIImageView(frame: CGRect(x: 10, y: 10, width: 25, height: 25)) // set your Own size
-    iconView.image = image
-    let iconContainerView: UIView = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 45))
-    iconContainerView.addSubview(iconView)
-    leftView = iconContainerView
-    leftViewMode = .always
-    self.tintColor = .lightGray
-  }
+
     
-    
-    
-}
+
 

@@ -15,7 +15,11 @@ class signinViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var passwordTXT: UITextField!
     var passbutton = UIButton()
     var iconClick = true
-
+//    arunnnnnnnnnnn
+   
+    
+    
+    
     
     
     @IBOutlet weak var signinBTN: UIButton!
@@ -34,9 +38,7 @@ class signinViewController: UIViewController, UITextFieldDelegate {
     @IBOutlet weak var backBTN: UIButton!
     
     
-    
-   
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         

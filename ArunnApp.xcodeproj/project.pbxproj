@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35CC26DD7E23026D85CBD9ED /* Pods_ArunnApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2E085A38F2CD04433EA335B /* Pods_ArunnApp.framework */; };
+		ADF0B064A9EAFCE39D31728A /* Pods_ArunnApp_ArunnAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C4BDB2FB69AEC9D78E7EC8 /* Pods_ArunnApp_ArunnAppUITests.framework */; };
+		B303080429924E9400FB8417 /* loginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B303080329924E9400FB8417 /* loginPageViewController.swift */; };
+		B37FEC602990E15E00E31190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC5F2990E15E00E31190 /* AppDelegate.swift */; };
+		B37FEC622990E15E00E31190 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC612990E15E00E31190 /* SceneDelegate.swift */; };
+		B37FEC642990E15E00E31190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC632990E15E00E31190 /* ViewController.swift */; };
+		B37FEC672990E15E00E31190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37FEC652990E15E00E31190 /* Main.storyboard */; };
+		B37FEC692990E16200E31190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B37FEC682990E16200E31190 /* Assets.xcassets */; };
+		B37FEC6C2990E16200E31190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B37FEC6A2990E16200E31190 /* LaunchScreen.storyboard */; };
+		B37FEC772990E16200E31190 /* ArunnAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC762990E16200E31190 /* ArunnAppTests.swift */; };
+		B37FEC812990E16200E31190 /* ArunnAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC802990E16200E31190 /* ArunnAppUITests.swift */; };
+		B37FEC832990E16200E31190 /* ArunnAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC822990E16200E31190 /* ArunnAppUITestsLaunchTests.swift */; };
+		B37FEC902990E1C500E31190 /* infoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37FEC8F2990E1C500E31190 /* infoCollectionViewCell.swift */; };
+		B3833B0529A357C900F6F6B5 /* forgotPasswordPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B0429A357C900F6F6B5 /* forgotPasswordPhoneViewController.swift */; };
+		B3833B0729A3602200F6F6B5 /* forgotPasswordOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B0629A3602200F6F6B5 /* forgotPasswordOTPViewController.swift */; };
+		B3833B0929A36B3300F6F6B5 /* permissionPGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3833B0829A36B3300F6F6B5 /* permissionPGViewController.swift */; };
+		B38554AB299B67AA00794CF7 /* signinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38554AA299B67AA00794CF7 /* signinViewController.swift */; };
+		B3C187CE299F671F000C6069 /* signUPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C187CD299F671F000C6069 /* signUPViewController.swift */; };
+		B3CC7BE529AF38D700F80F8D /* itemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CC7BE429AF38D700F80F8D /* itemCollectionViewCell.swift */; };
+		B3CD44EE29B5DE9F0081CE55 /* checkoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD44ED29B5DE9E0081CE55 /* checkoutViewController.swift */; };
+		B3CE52A329AC9E9000574DEB /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CE52A229AC9E9000574DEB /* MyListViewController.swift */; };
+		B3CF3F7229B1E5FB001C0B0F /* foodMENUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF3F7129B1E5FA001C0B0F /* foodMENUViewController.swift */; };
+		B3CF3F7429B1EB6A001C0B0F /* dishTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CF3F7329B1EB6A001C0B0F /* dishTableViewCell.swift */; };
+		B3D18F8629B86AB300FF8474 /* paymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D18F8529B86AB300FF8474 /* paymentViewController.swift */; };
+		B3D18F8F29B881C400FF8474 /* mapVIEWViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D18F8E29B881C400FF8474 /* mapVIEWViewController.swift */; };
+		B3D9A59529DAB6BC004D5546 /* Payment.gif in Resources */ = {isa = PBXBuildFile; fileRef = B3D9A59429DAB6BB004D5546 /* Payment.gif */; };
+		B3DB030229ADD9BA00B33BAF /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB030129ADD9BA00B33BAF /* tabViewController.swift */; };
+		B3DB030629ADFAF500B33BAF /* menuCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DB030529ADFAF500B33BAF /* menuCollectionViewCell.swift */; };
+		C09FDCDB01D92BB411F1688A /* Pods_ArunnAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107B2590B753805F5F1D20DB /* Pods_ArunnAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B37FEC732990E16200E31190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37FEC542990E15E00E31190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37FEC5B2990E15E00E31190;
+			remoteInfo = ArunnApp;
+		};
+		B37FEC7D2990E16200E31190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B37FEC542990E15E00E31190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B37FEC5B2990E15E00E31190;
+			remoteInfo = ArunnApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04C687DB0FEBFA8B64A95E4E /* Pods-ArunnAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnAppTests.debug.xcconfig"; path = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		107B2590B753805F5F1D20DB /* Pods_ArunnAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunnAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61F8DFB088A3803D6794586E /* Pods-ArunnAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnAppTests.release.xcconfig"; path = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		81D7F88AD5EF40FF9CE19825 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnApp-ArunnAppUITests.release.xcconfig"; path = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9E13425B008B82F9CFF23CC2 /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnApp-ArunnAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3EB93F14446723F8F335EC5 /* Pods-ArunnApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnApp.debug.xcconfig"; path = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B303080329924E9400FB8417 /* loginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginPageViewController.swift; sourceTree = "<group>"; };
+		B37FEC5C2990E15E00E31190 /* ArunnApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArunnApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37FEC5F2990E15E00E31190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B37FEC612990E15E00E31190 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B37FEC632990E15E00E31190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B37FEC662990E15E00E31190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B37FEC682990E16200E31190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B37FEC6B2990E16200E31190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B37FEC6D2990E16200E31190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B37FEC722990E16200E31190 /* ArunnAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArunnAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37FEC762990E16200E31190 /* ArunnAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArunnAppTests.swift; sourceTree = "<group>"; };
+		B37FEC7C2990E16200E31190 /* ArunnAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArunnAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B37FEC802990E16200E31190 /* ArunnAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArunnAppUITests.swift; sourceTree = "<group>"; };
+		B37FEC822990E16200E31190 /* ArunnAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArunnAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B37FEC8F2990E1C500E31190 /* infoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infoCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3833B0429A357C900F6F6B5 /* forgotPasswordPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordPhoneViewController.swift; sourceTree = "<group>"; };
+		B3833B0629A3602200F6F6B5 /* forgotPasswordOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordOTPViewController.swift; sourceTree = "<group>"; };
+		B3833B0829A36B3300F6F6B5 /* permissionPGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = permissionPGViewController.swift; sourceTree = "<group>"; };
+		B38554AA299B67AA00794CF7 /* signinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signinViewController.swift; sourceTree = "<group>"; };
+		B3C187CD299F671F000C6069 /* signUPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUPViewController.swift; sourceTree = "<group>"; };
+		B3CC7BE429AF38D700F80F8D /* itemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemCollectionViewCell.swift; sourceTree = "<group>"; };
+		B3CD44ED29B5DE9E0081CE55 /* checkoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkoutViewController.swift; sourceTree = "<group>"; };
+		B3CE52A229AC9E9000574DEB /* MyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
+		B3CF3F7129B1E5FA001C0B0F /* foodMENUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = foodMENUViewController.swift; sourceTree = "<group>"; };
+		B3CF3F7329B1EB6A001C0B0F /* dishTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dishTableViewCell.swift; sourceTree = "<group>"; };
+		B3D18F8529B86AB300FF8474 /* paymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = paymentViewController.swift; sourceTree = "<group>"; };
+		B3D18F8E29B881C400FF8474 /* mapVIEWViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapVIEWViewController.swift; sourceTree = "<group>"; };
+		B3D9A59429DAB6BB004D5546 /* Payment.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Payment.gif; sourceTree = "<group>"; };
+		B3DB030129ADD9BA00B33BAF /* tabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		B3DB030529ADFAF500B33BAF /* menuCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCollectionViewCell.swift; sourceTree = "<group>"; };
+		C2E085A38F2CD04433EA335B /* Pods_ArunnApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunnApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D378B1739CD6FD82A71565A0 /* Pods-ArunnApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArunnApp.release.xcconfig"; path = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp.release.xcconfig"; sourceTree = "<group>"; };
+		E7C4BDB2FB69AEC9D78E7EC8 /* Pods_ArunnApp_ArunnAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ArunnApp_ArunnAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B37FEC592990E15E00E31190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CC26DD7E23026D85CBD9ED /* Pods_ArunnApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC6F2990E16200E31190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09FDCDB01D92BB411F1688A /* Pods_ArunnAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC792990E16200E31190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADF0B064A9EAFCE39D31728A /* Pods_ArunnApp_ArunnAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E162473FF48F72EA3D82D87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3EB93F14446723F8F335EC5 /* Pods-ArunnApp.debug.xcconfig */,
+				D378B1739CD6FD82A71565A0 /* Pods-ArunnApp.release.xcconfig */,
+				9E13425B008B82F9CFF23CC2 /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */,
+				81D7F88AD5EF40FF9CE19825 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */,
+				04C687DB0FEBFA8B64A95E4E /* Pods-ArunnAppTests.debug.xcconfig */,
+				61F8DFB088A3803D6794586E /* Pods-ArunnAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B37FEC532990E15E00E31190 = {
+			isa = PBXGroup;
+			children = (
+				B37FEC5E2990E15E00E31190 /* ArunnApp */,
+				B37FEC752990E16200E31190 /* ArunnAppTests */,
+				B37FEC7F2990E16200E31190 /* ArunnAppUITests */,
+				B37FEC5D2990E15E00E31190 /* Products */,
+				6E162473FF48F72EA3D82D87 /* Pods */,
+				F3C101A2B7BA3DAA2B822A8B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B37FEC5D2990E15E00E31190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B37FEC5C2990E15E00E31190 /* ArunnApp.app */,
+				B37FEC722990E16200E31190 /* ArunnAppTests.xctest */,
+				B37FEC7C2990E16200E31190 /* ArunnAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B37FEC5E2990E15E00E31190 /* ArunnApp */ = {
+			isa = PBXGroup;
+			children = (
+				B3C187CD299F671F000C6069 /* signUPViewController.swift */,
+				B3D9A59429DAB6BB004D5546 /* Payment.gif */,
+				B37FEC5F2990E15E00E31190 /* AppDelegate.swift */,
+				B37FEC612990E15E00E31190 /* SceneDelegate.swift */,
+				B37FEC632990E15E00E31190 /* ViewController.swift */,
+				B3CD44ED29B5DE9E0081CE55 /* checkoutViewController.swift */,
+				B3833B0629A3602200F6F6B5 /* forgotPasswordOTPViewController.swift */,
+				B38554AA299B67AA00794CF7 /* signinViewController.swift */,
+				B37FEC652990E15E00E31190 /* Main.storyboard */,
+				B3D18F8E29B881C400FF8474 /* mapVIEWViewController.swift */,
+				B3D18F8529B86AB300FF8474 /* paymentViewController.swift */,
+				B3CF3F7129B1E5FA001C0B0F /* foodMENUViewController.swift */,
+				B3CC7BE429AF38D700F80F8D /* itemCollectionViewCell.swift */,
+				B3DB030529ADFAF500B33BAF /* menuCollectionViewCell.swift */,
+				B3DB030129ADD9BA00B33BAF /* tabViewController.swift */,
+				B3CF3F7329B1EB6A001C0B0F /* dishTableViewCell.swift */,
+				B37FEC8F2990E1C500E31190 /* infoCollectionViewCell.swift */,
+				B3CE52A229AC9E9000574DEB /* MyListViewController.swift */,
+				B3833B0829A36B3300F6F6B5 /* permissionPGViewController.swift */,
+				B3833B0429A357C900F6F6B5 /* forgotPasswordPhoneViewController.swift */,
+				B303080329924E9400FB8417 /* loginPageViewController.swift */,
+				B37FEC682990E16200E31190 /* Assets.xcassets */,
+				B37FEC6A2990E16200E31190 /* LaunchScreen.storyboard */,
+				B37FEC6D2990E16200E31190 /* Info.plist */,
+			);
+			path = ArunnApp;
+			sourceTree = "<group>";
+		};
+		B37FEC752990E16200E31190 /* ArunnAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B37FEC762990E16200E31190 /* ArunnAppTests.swift */,
+			);
+			path = ArunnAppTests;
+			sourceTree = "<group>";
+		};
+		B37FEC7F2990E16200E31190 /* ArunnAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B37FEC802990E16200E31190 /* ArunnAppUITests.swift */,
+				B37FEC822990E16200E31190 /* ArunnAppUITestsLaunchTests.swift */,
+			);
+			path = ArunnAppUITests;
+			sourceTree = "<group>";
+		};
+		F3C101A2B7BA3DAA2B822A8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2E085A38F2CD04433EA335B /* Pods_ArunnApp.framework */,
+				E7C4BDB2FB69AEC9D78E7EC8 /* Pods_ArunnApp_ArunnAppUITests.framework */,
+				107B2590B753805F5F1D20DB /* Pods_ArunnAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B37FEC5B2990E15E00E31190 /* ArunnApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37FEC862990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnApp" */;
+			buildPhases = (
+				7A1B797951389BD24878A60C /* [CP] Check Pods Manifest.lock */,
+				B37FEC582990E15E00E31190 /* Sources */,
+				B37FEC592990E15E00E31190 /* Frameworks */,
+				B37FEC5A2990E15E00E31190 /* Resources */,
+				C07087121DF0C3386B21844C /* [CP] Embed Pods Frameworks */,
+				4BC8B3FF4B3CE4E836268AA1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArunnApp;
+			productName = ArunnApp;
+			productReference = B37FEC5C2990E15E00E31190 /* ArunnApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B37FEC712990E16200E31190 /* ArunnAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37FEC892990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnAppTests" */;
+			buildPhases = (
+				D886160281D04370FF6B95AD /* [CP] Check Pods Manifest.lock */,
+				B37FEC6E2990E16200E31190 /* Sources */,
+				B37FEC6F2990E16200E31190 /* Frameworks */,
+				B37FEC702990E16200E31190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37FEC742990E16200E31190 /* PBXTargetDependency */,
+			);
+			name = ArunnAppTests;
+			productName = ArunnAppTests;
+			productReference = B37FEC722990E16200E31190 /* ArunnAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B37FEC7B2990E16200E31190 /* ArunnAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37FEC8C2990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnAppUITests" */;
+			buildPhases = (
+				9F1E7AD90448561BA9714A0B /* [CP] Check Pods Manifest.lock */,
+				B37FEC782990E16200E31190 /* Sources */,
+				B37FEC792990E16200E31190 /* Frameworks */,
+				B37FEC7A2990E16200E31190 /* Resources */,
+				39F265124D6B23521EA5604F /* [CP] Embed Pods Frameworks */,
+				34C622650575DB395D59C00E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B37FEC7E2990E16200E31190 /* PBXTargetDependency */,
+			);
+			name = ArunnAppUITests;
+			productName = ArunnAppUITests;
+			productReference = B37FEC7C2990E16200E31190 /* ArunnAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B37FEC542990E15E00E31190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					B37FEC5B2990E15E00E31190 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					B37FEC712990E16200E31190 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B37FEC5B2990E15E00E31190;
+					};
+					B37FEC7B2990E16200E31190 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = B37FEC5B2990E15E00E31190;
+					};
+				};
+			};
+			buildConfigurationList = B37FEC572990E15E00E31190 /* Build configuration list for PBXProject "ArunnApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B37FEC532990E15E00E31190;
+			productRefGroup = B37FEC5D2990E15E00E31190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B37FEC5B2990E15E00E31190 /* ArunnApp */,
+				B37FEC712990E16200E31190 /* ArunnAppTests */,
+				B37FEC7B2990E16200E31190 /* ArunnAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B37FEC5A2990E15E00E31190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37FEC6C2990E16200E31190 /* LaunchScreen.storyboard in Resources */,
+				B3D9A59529DAB6BC004D5546 /* Payment.gif in Resources */,
+				B37FEC692990E16200E31190 /* Assets.xcassets in Resources */,
+				B37FEC672990E15E00E31190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC702990E16200E31190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC7A2990E16200E31190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C622650575DB395D59C00E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39F265124D6B23521EA5604F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4BC8B3FF4B3CE4E836268AA1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A1B797951389BD24878A60C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArunnApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1E7AD90448561BA9714A0B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArunnApp-ArunnAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C07087121DF0C3386B21844C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ArunnApp/Pods-ArunnApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D886160281D04370FF6B95AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArunnAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B37FEC582990E15E00E31190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3CF3F7429B1EB6A001C0B0F /* dishTableViewCell.swift in Sources */,
+				B38554AB299B67AA00794CF7 /* signinViewController.swift in Sources */,
+				B3833B0729A3602200F6F6B5 /* forgotPasswordOTPViewController.swift in Sources */,
+				B3833B0929A36B3300F6F6B5 /* permissionPGViewController.swift in Sources */,
+				B3CF3F7229B1E5FB001C0B0F /* foodMENUViewController.swift in Sources */,
+				B3DB030629ADFAF500B33BAF /* menuCollectionViewCell.swift in Sources */,
+				B303080429924E9400FB8417 /* loginPageViewController.swift in Sources */,
+				B37FEC642990E15E00E31190 /* ViewController.swift in Sources */,
+				B3CD44EE29B5DE9F0081CE55 /* checkoutViewController.swift in Sources */,
+				B3CE52A329AC9E9000574DEB /* MyListViewController.swift in Sources */,
+				B3C187CE299F671F000C6069 /* signUPViewController.swift in Sources */,
+				B37FEC602990E15E00E31190 /* AppDelegate.swift in Sources */,
+				B3D18F8629B86AB300FF8474 /* paymentViewController.swift in Sources */,
+				B3CC7BE529AF38D700F80F8D /* itemCollectionViewCell.swift in Sources */,
+				B3DB030229ADD9BA00B33BAF /* tabViewController.swift in Sources */,
+				B37FEC902990E1C500E31190 /* infoCollectionViewCell.swift in Sources */,
+				B37FEC622990E15E00E31190 /* SceneDelegate.swift in Sources */,
+				B3D18F8F29B881C400FF8474 /* mapVIEWViewController.swift in Sources */,
+				B3833B0529A357C900F6F6B5 /* forgotPasswordPhoneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC6E2990E16200E31190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37FEC772990E16200E31190 /* ArunnAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B37FEC782990E16200E31190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37FEC832990E16200E31190 /* ArunnAppUITestsLaunchTests.swift in Sources */,
+				B37FEC812990E16200E31190 /* ArunnAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B37FEC742990E16200E31190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37FEC5B2990E15E00E31190 /* ArunnApp */;
+			targetProxy = B37FEC732990E16200E31190 /* PBXContainerItemProxy */;
+		};
+		B37FEC7E2990E16200E31190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B37FEC5B2990E15E00E31190 /* ArunnApp */;
+			targetProxy = B37FEC7D2990E16200E31190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B37FEC652990E15E00E31190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37FEC662990E15E00E31190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B37FEC6A2990E16200E31190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B37FEC6B2990E16200E31190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B37FEC842990E16200E31190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B37FEC852990E16200E31190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B37FEC872990E16200E31190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3EB93F14446723F8F335EC5 /* Pods-ArunnApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArunnApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B37FEC882990E16200E31190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D378B1739CD6FD82A71565A0 /* Pods-ArunnApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ArunnApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B37FEC8A2990E16200E31190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04C687DB0FEBFA8B64A95E4E /* Pods-ArunnAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArunnApp.app/ArunnApp";
+			};
+			name = Debug;
+		};
+		B37FEC8B2990E16200E31190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F8DFB088A3803D6794586E /* Pods-ArunnAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArunnApp.app/ArunnApp";
+			};
+			name = Release;
+		};
+		B37FEC8D2990E16200E31190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E13425B008B82F9CFF23CC2 /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArunnApp;
+			};
+			name = Debug;
+		};
+		B37FEC8E2990E16200E31190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81D7F88AD5EF40FF9CE19825 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Nschool.ArunnAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArunnApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B37FEC572990E15E00E31190 /* Build configuration list for PBXProject "ArunnApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37FEC842990E16200E31190 /* Debug */,
+				B37FEC852990E16200E31190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37FEC862990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37FEC872990E16200E31190 /* Debug */,
+				B37FEC882990E16200E31190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37FEC892990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37FEC8A2990E16200E31190 /* Debug */,
+				B37FEC8B2990E16200E31190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37FEC8C2990E16200E31190 /* Build configuration list for PBXNativeTarget "ArunnAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37FEC8D2990E16200E31190 /* Debug */,
+				B37FEC8E2990E16200E31190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B37FEC542990E15E00E31190 /* Project object */;
+}

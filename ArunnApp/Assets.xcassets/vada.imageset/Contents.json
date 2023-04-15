@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Urad dal vada _ Medu Vada ( Air fry _ Fry ) - SecondRecipe.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Urad dal vada _ Medu Vada ( Air fry _ Fry ) - SecondRecipe-1.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Urad dal vada _ Medu Vada ( Air fry _ Fry ) - SecondRecipe-2.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

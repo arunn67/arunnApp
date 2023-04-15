@@ -1,0 +1,32 @@
+PODS:
+  - Animation (1.0.0)
+  - GoogleMaps (7.1.0):
+    - GoogleMaps/Maps (= 7.1.0)
+  - GoogleMaps/Base (7.1.0)
+  - GoogleMaps/Maps (7.1.0):
+    - GoogleMaps/Base
+  - iOSDropDown (0.4.0)
+  - SwiftyGif (5.4.4)
+
+DEPENDENCIES:
+  - Animation
+  - GoogleMaps
+  - iOSDropDown
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - Animation
+    - GoogleMaps
+    - iOSDropDown
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  Animation: b6dfe2742baf6c8467954f9840081afb0c897652
+  GoogleMaps: bc56ffb0324e345a2d91bac1a64a920f9c8f1b20
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  SwiftyGif: 93a1cc87bf3a51916001cf8f3d63835fb64c819f
+
+PODFILE CHECKSUM: e312a9185f48ee0999a48de0e9212b7e0b900686
+
+COCOAPODS: 1.12.0

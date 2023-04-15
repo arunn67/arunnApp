@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "Church Flyer Templates Free Psd Design Posters Banners Cards.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "Church Flyer Templates Free Psd Design Posters Banners Cards-1.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "Church Flyer Templates Free Psd Design Posters Banners Cards-2.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,1559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D15AA10F068F5C753CAC8402B439015 /* SwiftyGif.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA76F540B23032678B26D4ED634C838C /* NSImageView+SwiftyGif.swift */; };
+		16DA79129B0ADFD999E304440A9BAC47 /* Pods-ArunnAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A77A8AE9A5869AB5FADC082BE50F2526 /* Pods-ArunnAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B319F8F75953DA5910E05AB92ECB373 /* Curve.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6B6EEFA310F8DF05D8D81E8E1C8708 /* Curve.swift */; };
+		1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 349B8BD0B19C76952DDBF9034C9645F3 /* iOSDropDown-dummy.m */; };
+		1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		1D859A6703E7AF93F13EB21C4A8E9ADA /* Pods-ArunnApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06025FD8D3B5D5987A3B94DBAF008C5B /* Pods-ArunnApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7D40DBDFD6E38C2AA1AEDEA4B8B6003 /* SwiftyGifManager.swift */; };
+		285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		325C1A77A818C391DD7F4ADB1A03E265 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		36182B6422207FF85807A082A1CB3712 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		37F1228C33881CF1DB44AC267B983BB2 /* Pods-ArunnAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 019CFF594F5A1A866EBB8EC7AAC47FD7 /* Pods-ArunnAppTests-dummy.m */; };
+		4880F882F6CA2942E512D1797E9800C6 /* Interpolation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DAC3113F6DDC26B9DAEDD194D7E090F /* Interpolation.swift */; };
+		56C5A356D474C42CBB8CC2FD8C691FF5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F654BAACB73981C4068FE759ED96556 /* ObjcAssociatedWeakObject.swift */; };
+		9060903CD22EE85515DCD99730825314 /* Animation.h in Headers */ = {isa = PBXBuildFile; fileRef = 361E2E45D7B27C01656BF4585CEEFA6D /* Animation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4602414E2C24A71DAC5AC5875C56865C /* SwiftyGif-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DE5BF13AEB0E2783ABC8A5F7A8F014D /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A1AFC2279695B7E01A095FAF337F82B /* Animation.swift */; };
+		9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9530B0BF8C93170C79A308045ACF9E4C /* iOSDropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A755D6748118489815E0593FC4DCB0B /* iOSDropDown.swift */; };
+		BEDFFE49F78A7BDE55FAF64836067495 /* Pods-ArunnApp-ArunnAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBBD4DAEFD5238568D9F11CA4A37DFB /* Pods-ArunnApp-ArunnAppUITests-dummy.m */; };
+		CD2BDE405900863C77158A30449B99C8 /* Pods-ArunnApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3705017FFED810B1635D68B1CF3C035 /* Pods-ArunnApp-dummy.m */; };
+		CEBACE350445004FFAB28B829F51F989 /* Pods-ArunnApp-ArunnAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7621045FB14AE14832175A1D5C37C8BB /* Pods-ArunnApp-ArunnAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6CDBF7CC656528FE9A8EF99708D08C /* UIImage+SwiftyGif.swift */; };
+		DD127EA223941CA99ADADEFA878F67BF /* Animation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88A39CCE74DB0A5C8D94F7513694C360 /* Animation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C0D8847D87320D2BEDA7AC7103D66 /* SwiftyGif-dummy.m */; };
+		E150B98DA20C5A232075DDFCE39FE95D /* Animation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC206AFA1667AC6D783D834790CE0A2E /* Animation-dummy.m */; };
+		E17A174171EE0D9F1A6C2DD84212DB8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B16339F6698586ECD6D80FE2AFCC6E /* NSImage+SwiftyGif.swift */; };
+		FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0421AD3DC354621B31E0E3DF269BAA89 /* UIImageView+SwiftyGif.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02AA00A1F69CA5FE7CA1E7B428CA7C21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		0D87124C6BB95646EE0945A3091E8FF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		0FBC40A1503E1DB2C00C9318D6285DC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		1F2D19CC6F2550FCEDE4595BE8EE8A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BD3C6DE4A0D4203E2AAF08337A737FE;
+			remoteInfo = "Pods-ArunnApp";
+		};
+		21F8DFD4638102CF751BFCDEF5A55705 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03997FBAF5B702AACD935F13360DB1F1;
+			remoteInfo = Animation;
+		};
+		72368344792FDD705D3358D9242CB153 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15AEBAFA43912F898FC2E1A73025C946;
+			remoteInfo = SwiftyGif;
+		};
+		7822DF2A06A0FF4849F2878294ADF1FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C76CE6CD60B1CE55A174F03CC59AE17;
+			remoteInfo = iOSDropDown;
+		};
+		9036478627DDE0B82084CF66051B21D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		980D3ABAD7900E1FEAA28FA9B008E513 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03997FBAF5B702AACD935F13360DB1F1;
+			remoteInfo = Animation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019CFF594F5A1A866EBB8EC7AAC47FD7 /* Pods-ArunnAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunnAppTests-dummy.m"; sourceTree = "<group>"; };
+		02FE3E284872B5F2B7902B655FA7F83E /* Pods-ArunnApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunnApp-resources.sh"; sourceTree = "<group>"; };
+		03670071E43C1C891E2D976BA636702A /* SwiftyGif.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.release.xcconfig; sourceTree = "<group>"; };
+		0421AD3DC354621B31E0E3DF269BAA89 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+SwiftyGif.swift"; path = "SwiftyGif/UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		06025FD8D3B5D5987A3B94DBAF008C5B /* Pods-ArunnApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunnApp-umbrella.h"; sourceTree = "<group>"; };
+		07449195D501DF79000491C5EEFCD838 /* SwiftyGif.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftyGif.modulemap; sourceTree = "<group>"; };
+		0A1AFC2279695B7E01A095FAF337F82B /* Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Animation.swift; path = Animation/Animation.swift; sourceTree = "<group>"; };
+		0A755D6748118489815E0593FC4DCB0B /* iOSDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iOSDropDown.swift; path = iOSDropDown/Classes/iOSDropDown.swift; sourceTree = "<group>"; };
+		0BBA500CC22538E79D20D3BD58397DFD /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		0C85D36565E1ADA61AC9492698BD66EE /* Pods-ArunnApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D15AA10F068F5C753CAC8402B439015 /* SwiftyGif.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftyGif.h; path = SwiftyGif/SwiftyGif.h; sourceTree = "<group>"; };
+		0F6CDBF7CC656528FE9A8EF99708D08C /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+SwiftyGif.swift"; path = "SwiftyGif/UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		0FEDB437D4C1679F56E7F1940887C2DB /* Animation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Animation-Info.plist"; sourceTree = "<group>"; };
+		1444B09721C73D24CF5DE623AEB702D0 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnApp-ArunnAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1720ED39B368471109DA6851B7AB9A33 /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		29FFCE2BD582D41C3DC2C4885B4D67C8 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		2DD98E5FD3F8FC1F4CE4E62A130AF99C /* Pods-ArunnAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		349B8BD0B19C76952DDBF9034C9645F3 /* iOSDropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSDropDown-dummy.m"; sourceTree = "<group>"; };
+		361E2E45D7B27C01656BF4585CEEFA6D /* Animation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Animation.h; path = Animation/Animation.h; sourceTree = "<group>"; };
+		38B90A084FC80942FF60BC333A12ABD3 /* Pods-ArunnAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArunnAppTests"; path = Pods_ArunnAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E4A33A5C46E6ED1E046C09076200DB5 /* SwiftyGif-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftyGif-Info.plist"; sourceTree = "<group>"; };
+		4602414E2C24A71DAC5AC5875C56865C /* SwiftyGif-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-umbrella.h"; sourceTree = "<group>"; };
+		4971616AF0498791927FEB4FD221473D /* iOSDropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-prefix.pch"; sourceTree = "<group>"; };
+		4DCE0171795F70371F2EAD2F61A37C33 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		561DF7D3D502F6EB0741B76D7D327CDD /* Pods-ArunnApp-ArunnAppUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunnApp-ArunnAppUITests-resources.sh"; sourceTree = "<group>"; };
+		5CD2D5F437BD5D86AF161AEE75E388FA /* iOSDropDown.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.debug.xcconfig; sourceTree = "<group>"; };
+		61B3973FD5445F56F2647EB9B0B489E3 /* Pods-ArunnApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunnApp-frameworks.sh"; sourceTree = "<group>"; };
+		64B4AB048C4264519DB7A11E462EF2EB /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnApp-ArunnAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		66159626C9C63B4AC4D869870947D1B3 /* Pods-ArunnAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArunnAppTests.modulemap"; sourceTree = "<group>"; };
+		6D8C0D8847D87320D2BEDA7AC7103D66 /* SwiftyGif-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyGif-dummy.m"; sourceTree = "<group>"; };
+		6E81E8E887EAC36F5B980CC721A66591 /* iOSDropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iOSDropDown.modulemap; sourceTree = "<group>"; };
+		6F654BAACB73981C4068FE759ED96556 /* ObjcAssociatedWeakObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjcAssociatedWeakObject.swift; path = SwiftyGif/ObjcAssociatedWeakObject.swift; sourceTree = "<group>"; };
+		71BE848A610755AC24C407B6F7FDD2E3 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7621045FB14AE14832175A1D5C37C8BB /* Pods-ArunnApp-ArunnAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunnApp-ArunnAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		76CDB30B7CB2624F979A0EA49978C425 /* Pods-ArunnApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnApp.release.xcconfig"; sourceTree = "<group>"; };
+		7A1E8F7CB8920D5E127279E92A77AF21 /* SwiftyGif.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyGif.debug.xcconfig; sourceTree = "<group>"; };
+		7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyGif; path = SwiftyGif.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82C4DE9BA4170BA4C3C5DC89A2DBE6B5 /* Pods-ArunnApp-ArunnAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArunnApp-ArunnAppUITests"; path = Pods_ArunnApp_ArunnAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		840BA121E9694531D75F862B88F55BCD /* Animation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Animation.debug.xcconfig; sourceTree = "<group>"; };
+		8482A2D3A0AC91F335035D4D08F13C0E /* Pods-ArunnApp-ArunnAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnApp-ArunnAppUITests-Info.plist"; sourceTree = "<group>"; };
+		8750404B4454D31788551D624EC6F721 /* SwiftyGif-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyGif-prefix.pch"; sourceTree = "<group>"; };
+		88A39CCE74DB0A5C8D94F7513694C360 /* Animation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Animation-umbrella.h"; sourceTree = "<group>"; };
+		90B44892C0739692FE88984C47F3C396 /* Pods-ArunnApp-ArunnAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnApp-ArunnAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		943296D4C3BCD7CDBD607BE092F69F81 /* Pods-ArunnApp-ArunnAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArunnApp-ArunnAppUITests.modulemap"; sourceTree = "<group>"; };
+		9530B0BF8C93170C79A308045ACF9E4C /* iOSDropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSDropDown-umbrella.h"; sourceTree = "<group>"; };
+		998C9CE4E0C8CE75DD579F518F4CB9F2 /* iOSDropDown.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSDropDown.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAC3113F6DDC26B9DAEDD194D7E090F /* Interpolation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Interpolation.swift; path = Animation/Interpolation.swift; sourceTree = "<group>"; };
+		9E586A22E5A731A06F870FFED7A9C006 /* Pods-ArunnAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnAppTests-Info.plist"; sourceTree = "<group>"; };
+		A77A8AE9A5869AB5FADC082BE50F2526 /* Pods-ArunnAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunnAppTests-umbrella.h"; sourceTree = "<group>"; };
+		AA76F540B23032678B26D4ED634C838C /* NSImageView+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImageView+SwiftyGif.swift"; path = "SwiftyGif/NSImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
+		B279451D25A2B96EA3B8FD98026C49D6 /* Pods-ArunnApp-ArunnAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ArunnApp-ArunnAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B71CC0EDDC79AB23CAD699098012E0A8 /* Animation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Animation-prefix.pch"; sourceTree = "<group>"; };
+		BA3DFB52AB2D5D5A7FEC85D44D79DDE0 /* Pods-ArunnAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunnAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFBBD4DAEFD5238568D9F11CA4A37DFB /* Pods-ArunnApp-ArunnAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunnApp-ArunnAppUITests-dummy.m"; sourceTree = "<group>"; };
+		C4418F41C7DE95785C7914685B149033 /* Pods-ArunnApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunnApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA82C5DE43E089B852A238EAFD819E44 /* Pods-ArunnApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnApp-Info.plist"; sourceTree = "<group>"; };
+		CC206AFA1667AC6D783D834790CE0A2E /* Animation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Animation-dummy.m"; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D3705017FFED810B1635D68B1CF3C035 /* Pods-ArunnApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunnApp-dummy.m"; sourceTree = "<group>"; };
+		D47E8FEA89A738996E9EF9BBBA9881B0 /* Pods-ArunnApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArunnApp.modulemap"; sourceTree = "<group>"; };
+		D4B1140448880DAFCEADE1DBD8575E7C /* iOSDropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iOSDropDown-Info.plist"; sourceTree = "<group>"; };
+		DADAA03342C31E861FB532ED5A0659A3 /* Pods-ArunnApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E5752CE788DDF7536F9228887A5FA429 /* Pods-ArunnApp-ArunnAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunnApp-ArunnAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7D40DBDFD6E38C2AA1AEDEA4B8B6003 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyGifManager.swift; path = SwiftyGif/SwiftyGifManager.swift; sourceTree = "<group>"; };
+		E8AD4483061A22838CBADA2F2F1E29A4 /* Pods-ArunnAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunnAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E933E6D421A352E77A21C40C8B099E2A /* Pods-ArunnApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ArunnApp"; path = Pods_ArunnApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E94824C640F44D41B20360F2DA6E840F /* Animation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Animation.modulemap; sourceTree = "<group>"; };
+		EA0CFE2358C4AF709A7BAE9B9A60863D /* Pods-ArunnAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunnAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA6B6EEFA310F8DF05D8D81E8E1C8708 /* Curve.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Curve.swift; path = Animation/Curve.swift; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EC0A48B1104CEABC7CBE6D468A023952 /* Animation */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Animation; path = Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B16339F6698586ECD6D80FE2AFCC6E /* NSImage+SwiftyGif.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSImage+SwiftyGif.swift"; path = "SwiftyGif/NSImage+SwiftyGif.swift"; sourceTree = "<group>"; };
+		F875F5CA4C544F226E33A5D1D03D2592 /* Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Animation.release.xcconfig; sourceTree = "<group>"; };
+		FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSDropDown; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBF405B362D5ABE162A222873918844 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C4037F996AFFB10E6563988C4E0C29D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CC79215F75F7BD8660EAF3E20F8793 /* Foundation.framework in Frameworks */,
+				285F0E91DB7A22D06F648FF5793FB7FC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CCEA1CFFDD84512A60CED0AAEA8ACEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C5A356D474C42CBB8CC2FD8C691FF5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4B6D1C6300A431D2864F538CCDCB426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325C1A77A818C391DD7F4ADB1A03E265 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1CAFB1799B0E888953859B936DDA0DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36182B6422207FF85807A082A1CB3712 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8B2285A166BF80BADCB88EFAA246CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17A174171EE0D9F1A6C2DD84212DB8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B8934E8816E56F5F618CD2A5283B34E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71BE848A610755AC24C407B6F7FDD2E3 /* GoogleMaps.framework */,
+				4DCE0171795F70371F2EAD2F61A37C33 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B5DD2E35F6C0C646A90BEAAD23FB02D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A48B1104CEABC7CBE6D468A023952 /* Animation */,
+				FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */,
+				E933E6D421A352E77A21C40C8B099E2A /* Pods-ArunnApp */,
+				82C4DE9BA4170BA4C3C5DC89A2DBE6B5 /* Pods-ArunnApp-ArunnAppUITests */,
+				38B90A084FC80942FF60BC333A12ABD3 /* Pods-ArunnAppTests */,
+				7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CC991D1413BF5FD4C47DD31B0129064 /* iOSDropDown */ = {
+			isa = PBXGroup;
+			children = (
+				0A755D6748118489815E0593FC4DCB0B /* iOSDropDown.swift */,
+				AFBCFFA1B04571940DA0D9723F5C9479 /* Support Files */,
+			);
+			name = iOSDropDown;
+			path = iOSDropDown;
+			sourceTree = "<group>";
+		};
+		392C99EA0677530B76B3579D4048A059 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBA010D3E00C1399D2365B642FD50CD /* Pods-ArunnApp */,
+				3A8CE74670AA30D042125367ED855844 /* Pods-ArunnApp-ArunnAppUITests */,
+				3E7089C110C7D994F37E5EC47B0ADFD7 /* Pods-ArunnAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A8CE74670AA30D042125367ED855844 /* Pods-ArunnApp-ArunnAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				943296D4C3BCD7CDBD607BE092F69F81 /* Pods-ArunnApp-ArunnAppUITests.modulemap */,
+				E5752CE788DDF7536F9228887A5FA429 /* Pods-ArunnApp-ArunnAppUITests-acknowledgements.markdown */,
+				90B44892C0739692FE88984C47F3C396 /* Pods-ArunnApp-ArunnAppUITests-acknowledgements.plist */,
+				BFBBD4DAEFD5238568D9F11CA4A37DFB /* Pods-ArunnApp-ArunnAppUITests-dummy.m */,
+				B279451D25A2B96EA3B8FD98026C49D6 /* Pods-ArunnApp-ArunnAppUITests-frameworks.sh */,
+				8482A2D3A0AC91F335035D4D08F13C0E /* Pods-ArunnApp-ArunnAppUITests-Info.plist */,
+				561DF7D3D502F6EB0741B76D7D327CDD /* Pods-ArunnApp-ArunnAppUITests-resources.sh */,
+				7621045FB14AE14832175A1D5C37C8BB /* Pods-ArunnApp-ArunnAppUITests-umbrella.h */,
+				64B4AB048C4264519DB7A11E462EF2EB /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */,
+				1444B09721C73D24CF5DE623AEB702D0 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */,
+			);
+			name = "Pods-ArunnApp-ArunnAppUITests";
+			path = "Target Support Files/Pods-ArunnApp-ArunnAppUITests";
+			sourceTree = "<group>";
+		};
+		3D6A15E51DAB06F3AD3BE5A0231FBFAF /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				361E2E45D7B27C01656BF4585CEEFA6D /* Animation.h */,
+				0A1AFC2279695B7E01A095FAF337F82B /* Animation.swift */,
+				EA6B6EEFA310F8DF05D8D81E8E1C8708 /* Curve.swift */,
+				9DAC3113F6DDC26B9DAEDD194D7E090F /* Interpolation.swift */,
+				7E127E09EA663AC69292FD0778ACADC9 /* Support Files */,
+			);
+			name = Animation;
+			path = Animation;
+			sourceTree = "<group>";
+		};
+		3E7089C110C7D994F37E5EC47B0ADFD7 /* Pods-ArunnAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				66159626C9C63B4AC4D869870947D1B3 /* Pods-ArunnAppTests.modulemap */,
+				BA3DFB52AB2D5D5A7FEC85D44D79DDE0 /* Pods-ArunnAppTests-acknowledgements.markdown */,
+				EA0CFE2358C4AF709A7BAE9B9A60863D /* Pods-ArunnAppTests-acknowledgements.plist */,
+				019CFF594F5A1A866EBB8EC7AAC47FD7 /* Pods-ArunnAppTests-dummy.m */,
+				9E586A22E5A731A06F870FFED7A9C006 /* Pods-ArunnAppTests-Info.plist */,
+				A77A8AE9A5869AB5FADC082BE50F2526 /* Pods-ArunnAppTests-umbrella.h */,
+				E8AD4483061A22838CBADA2F2F1E29A4 /* Pods-ArunnAppTests.debug.xcconfig */,
+				2DD98E5FD3F8FC1F4CE4E62A130AF99C /* Pods-ArunnAppTests.release.xcconfig */,
+			);
+			name = "Pods-ArunnAppTests";
+			path = "Target Support Files/Pods-ArunnAppTests";
+			sourceTree = "<group>";
+		};
+		45F0F40A40DF6C847BBDA8089A218EB8 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				0B8934E8816E56F5F618CD2A5283B34E /* Frameworks */,
+				4D6FF0DF2F4626AA08281101C1C1FF05 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		481D2098EAECE1E53A049F964A29DFB7 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				677FA97396D3C575E11C4CFD889B4AC9 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		4D6FF0DF2F4626AA08281101C1C1FF05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDBF405B362D5ABE162A222873918844 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5078ABE1C4140743F944BB53D48FCA35 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1720ED39B368471109DA6851B7AB9A33 /* GoogleMaps.debug.xcconfig */,
+				0BBA500CC22538E79D20D3BD58397DFD /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		677FA97396D3C575E11C4CFD889B4AC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29FFCE2BD582D41C3DC2C4885B4D67C8 /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B4351D20455A3DA372B313B31670FAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A15E51DAB06F3AD3BE5A0231FBFAF /* Animation */,
+				F10AFC74E5A10F6E9182ECFAB7823E43 /* GoogleMaps */,
+				1CC991D1413BF5FD4C47DD31B0129064 /* iOSDropDown */,
+				CAFF421CA6FA859460E0D78B23E5C65B /* SwiftyGif */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7E127E09EA663AC69292FD0778ACADC9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E94824C640F44D41B20360F2DA6E840F /* Animation.modulemap */,
+				CC206AFA1667AC6D783D834790CE0A2E /* Animation-dummy.m */,
+				0FEDB437D4C1679F56E7F1940887C2DB /* Animation-Info.plist */,
+				B71CC0EDDC79AB23CAD699098012E0A8 /* Animation-prefix.pch */,
+				88A39CCE74DB0A5C8D94F7513694C360 /* Animation-umbrella.h */,
+				840BA121E9694531D75F862B88F55BCD /* Animation.debug.xcconfig */,
+				F875F5CA4C544F226E33A5D1D03D2592 /* Animation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Animation";
+			sourceTree = "<group>";
+		};
+		AFBCFFA1B04571940DA0D9723F5C9479 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E81E8E887EAC36F5B980CC721A66591 /* iOSDropDown.modulemap */,
+				349B8BD0B19C76952DDBF9034C9645F3 /* iOSDropDown-dummy.m */,
+				D4B1140448880DAFCEADE1DBD8575E7C /* iOSDropDown-Info.plist */,
+				4971616AF0498791927FEB4FD221473D /* iOSDropDown-prefix.pch */,
+				9530B0BF8C93170C79A308045ACF9E4C /* iOSDropDown-umbrella.h */,
+				5CD2D5F437BD5D86AF161AEE75E388FA /* iOSDropDown.debug.xcconfig */,
+				998C9CE4E0C8CE75DD579F518F4CB9F2 /* iOSDropDown.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iOSDropDown";
+			sourceTree = "<group>";
+		};
+		C9281C2AD79811E9545703481C3EC6B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07449195D501DF79000491C5EEFCD838 /* SwiftyGif.modulemap */,
+				6D8C0D8847D87320D2BEDA7AC7103D66 /* SwiftyGif-dummy.m */,
+				3E4A33A5C46E6ED1E046C09076200DB5 /* SwiftyGif-Info.plist */,
+				8750404B4454D31788551D624EC6F721 /* SwiftyGif-prefix.pch */,
+				4602414E2C24A71DAC5AC5875C56865C /* SwiftyGif-umbrella.h */,
+				7A1E8F7CB8920D5E127279E92A77AF21 /* SwiftyGif.debug.xcconfig */,
+				03670071E43C1C891E2D976BA636702A /* SwiftyGif.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyGif";
+			sourceTree = "<group>";
+		};
+		CAFF421CA6FA859460E0D78B23E5C65B /* SwiftyGif */ = {
+			isa = PBXGroup;
+			children = (
+				F7B16339F6698586ECD6D80FE2AFCC6E /* NSImage+SwiftyGif.swift */,
+				AA76F540B23032678B26D4ED634C838C /* NSImageView+SwiftyGif.swift */,
+				6F654BAACB73981C4068FE759ED96556 /* ObjcAssociatedWeakObject.swift */,
+				0D15AA10F068F5C753CAC8402B439015 /* SwiftyGif.h */,
+				E7D40DBDFD6E38C2AA1AEDEA4B8B6003 /* SwiftyGifManager.swift */,
+				0F6CDBF7CC656528FE9A8EF99708D08C /* UIImage+SwiftyGif.swift */,
+				0421AD3DC354621B31E0E3DF269BAA89 /* UIImageView+SwiftyGif.swift */,
+				C9281C2AD79811E9545703481C3EC6B5 /* Support Files */,
+			);
+			name = SwiftyGif;
+			path = SwiftyGif;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				6B4351D20455A3DA372B313B31670FAD /* Pods */,
+				1B5DD2E35F6C0C646A90BEAAD23FB02D /* Products */,
+				392C99EA0677530B76B3579D4048A059 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBA010D3E00C1399D2365B642FD50CD /* Pods-ArunnApp */ = {
+			isa = PBXGroup;
+			children = (
+				D47E8FEA89A738996E9EF9BBBA9881B0 /* Pods-ArunnApp.modulemap */,
+				C4418F41C7DE95785C7914685B149033 /* Pods-ArunnApp-acknowledgements.markdown */,
+				0C85D36565E1ADA61AC9492698BD66EE /* Pods-ArunnApp-acknowledgements.plist */,
+				D3705017FFED810B1635D68B1CF3C035 /* Pods-ArunnApp-dummy.m */,
+				61B3973FD5445F56F2647EB9B0B489E3 /* Pods-ArunnApp-frameworks.sh */,
+				CA82C5DE43E089B852A238EAFD819E44 /* Pods-ArunnApp-Info.plist */,
+				02FE3E284872B5F2B7902B655FA7F83E /* Pods-ArunnApp-resources.sh */,
+				06025FD8D3B5D5987A3B94DBAF008C5B /* Pods-ArunnApp-umbrella.h */,
+				DADAA03342C31E861FB532ED5A0659A3 /* Pods-ArunnApp.debug.xcconfig */,
+				76CDB30B7CB2624F979A0EA49978C425 /* Pods-ArunnApp.release.xcconfig */,
+			);
+			name = "Pods-ArunnApp";
+			path = "Target Support Files/Pods-ArunnApp";
+			sourceTree = "<group>";
+		};
+		F10AFC74E5A10F6E9182ECFAB7823E43 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				481D2098EAECE1E53A049F964A29DFB7 /* Base */,
+				45F0F40A40DF6C847BBDA8089A218EB8 /* Maps */,
+				5078ABE1C4140743F944BB53D48FCA35 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		297E0198A522A9DAA9CF74807C657FF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEBACE350445004FFAB28B829F51F989 /* Pods-ArunnApp-ArunnAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6399E76BE7737FC2D0603AC8A0CBD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D859A6703E7AF93F13EB21C4A8E9ADA /* Pods-ArunnApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		961D824100BCC352369B04AE006FF8FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DA79129B0ADFD999E304440A9BAC47 /* Pods-ArunnAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F079A2701FEA0F33062E44BE2ECCBC0 /* iOSDropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAC3D640204BF785BB1FF3C49626A062 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9060903CD22EE85515DCD99730825314 /* Animation.h in Headers */,
+				DD127EA223941CA99ADADEFA878F67BF /* Animation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6250923615FD738FBB9701899B04543 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1119BB99FE65FEEA8D08332195F21172 /* SwiftyGif.h in Headers */,
+				90F23D39B736A13F55C4B2796E9EA7A8 /* SwiftyGif-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03997FBAF5B702AACD935F13360DB1F1 /* Animation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39C6D251949592BEAA346785EEA88CF /* Build configuration list for PBXNativeTarget "Animation" */;
+			buildPhases = (
+				CAC3D640204BF785BB1FF3C49626A062 /* Headers */,
+				77E4AF2F206415439A6D6FDB4E2850B7 /* Sources */,
+				D8B2285A166BF80BADCB88EFAA246CA1 /* Frameworks */,
+				FF2CEA4BABAA6B659857F0AD14B5B2CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Animation;
+			productName = Animation;
+			productReference = EC0A48B1104CEABC7CBE6D468A023952 /* Animation */;
+			productType = "com.apple.product-type.framework";
+		};
+		0BD3C6DE4A0D4203E2AAF08337A737FE /* Pods-ArunnApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05C6D2B00EBDA80C2DA568C561B5DE6 /* Build configuration list for PBXNativeTarget "Pods-ArunnApp" */;
+			buildPhases = (
+				7B6399E76BE7737FC2D0603AC8A0CBD9 /* Headers */,
+				CE490A513C2915D83D284D284416E1CD /* Sources */,
+				7CCEA1CFFDD84512A60CED0AAEA8ACEC /* Frameworks */,
+				D58CDCE46B2B744A4A9E4E343FACB9A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EFD851AA32BF928BFB0B1EF00B9ACCF /* PBXTargetDependency */,
+				64F5FA2961B436A4B569584476E5FCA2 /* PBXTargetDependency */,
+				B23DA3F0B568614481E0F03D9683CB2B /* PBXTargetDependency */,
+				705C65669793710922333832299A773A /* PBXTargetDependency */,
+			);
+			name = "Pods-ArunnApp";
+			productName = Pods_ArunnApp;
+			productReference = E933E6D421A352E77A21C40C8B099E2A /* Pods-ArunnApp */;
+			productType = "com.apple.product-type.framework";
+		};
+		15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */;
+			buildPhases = (
+				F6250923615FD738FBB9701899B04543 /* Headers */,
+				ED0AE9A395D326A6C08DFB5657455BFA /* Sources */,
+				70CF7E848BD9796896BEC3AC6CAE5A64 /* Frameworks */,
+				F76858BC3579218524AE8B626C810CB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyGif;
+			productName = SwiftyGif;
+			productReference = 7AD67EFB9A7864151301DC2890207AA2 /* SwiftyGif */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */;
+			buildPhases = (
+				BD4CF08E6AA8A4DB187E2A164C28B4F8 /* Headers */,
+				C007FF516C6F3115BB3A2EF5261492C8 /* Sources */,
+				757DD7F42483F1FD3CFAC8A82FD8B6AD /* Frameworks */,
+				A637E6D62C8F056CC40DC1E80705FA1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDropDown;
+			productName = iOSDropDown;
+			productReference = FCEEA8BBD9DA8D0CCE0A3092B20E3FA7 /* iOSDropDown */;
+			productType = "com.apple.product-type.framework";
+		};
+		7DF6DAB57393FE43A7897778B20A7F9D /* Pods-ArunnApp-ArunnAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B79A637AD5F692B2E1CD67B68B10C573 /* Build configuration list for PBXNativeTarget "Pods-ArunnApp-ArunnAppUITests" */;
+			buildPhases = (
+				297E0198A522A9DAA9CF74807C657FF6 /* Headers */,
+				A8F4BEF24FA2C9ABE7E5234CBAE1F197 /* Sources */,
+				B4B6D1C6300A431D2864F538CCDCB426 /* Frameworks */,
+				9B2A7A82F15AAEC5DA4E0D09782C2163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F77F1B063835FBE20CEA1B3EAB06B549 /* PBXTargetDependency */,
+				C0B6C666FC64B183C0C38396DEBDD4A0 /* PBXTargetDependency */,
+				8CD307C3798150F6B378DD04BC12A553 /* PBXTargetDependency */,
+				B96AF3F807FD9AAAA6E9B1C043AD8A6E /* PBXTargetDependency */,
+			);
+			name = "Pods-ArunnApp-ArunnAppUITests";
+			productName = Pods_ArunnApp_ArunnAppUITests;
+			productReference = 82C4DE9BA4170BA4C3C5DC89A2DBE6B5 /* Pods-ArunnApp-ArunnAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF6EDD1F5BF11EB23310FBEDDFEFDD3D /* Pods-ArunnAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 007D7B90E413A2AA89F3BDE44F5E5133 /* Build configuration list for PBXNativeTarget "Pods-ArunnAppTests" */;
+			buildPhases = (
+				961D824100BCC352369B04AE006FF8FC /* Headers */,
+				BCF3B2B3F8A5EF2F09DEF96F17C33271 /* Sources */,
+				D1CAFB1799B0E888953859B936DDA0DC /* Frameworks */,
+				CB02F195639803C04264598B3E9F42C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A418FD817907E168274A64B7EFC6EE6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArunnAppTests";
+			productName = Pods_ArunnAppTests;
+			productReference = 38B90A084FC80942FF60BC333A12ABD3 /* Pods-ArunnAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1B5DD2E35F6C0C646A90BEAAD23FB02D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03997FBAF5B702AACD935F13360DB1F1 /* Animation */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */,
+				0BD3C6DE4A0D4203E2AAF08337A737FE /* Pods-ArunnApp */,
+				7DF6DAB57393FE43A7897778B20A7F9D /* Pods-ArunnApp-ArunnAppUITests */,
+				DF6EDD1F5BF11EB23310FBEDDFEFDD3D /* Pods-ArunnAppTests */,
+				15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B2A7A82F15AAEC5DA4E0D09782C2163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A637E6D62C8F056CC40DC1E80705FA1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB02F195639803C04264598B3E9F42C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58CDCE46B2B744A4A9E4E343FACB9A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F76858BC3579218524AE8B626C810CB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF2CEA4BABAA6B659857F0AD14B5B2CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77E4AF2F206415439A6D6FDB4E2850B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE5BF13AEB0E2783ABC8A5F7A8F014D /* Animation.swift in Sources */,
+				E150B98DA20C5A232075DDFCE39FE95D /* Animation-dummy.m in Sources */,
+				1B319F8F75953DA5910E05AB92ECB373 /* Curve.swift in Sources */,
+				4880F882F6CA2942E512D1797E9800C6 /* Interpolation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8F4BEF24FA2C9ABE7E5234CBAE1F197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEDFFE49F78A7BDE55FAF64836067495 /* Pods-ArunnApp-ArunnAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCF3B2B3F8A5EF2F09DEF96F17C33271 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37F1228C33881CF1DB44AC267B983BB2 /* Pods-ArunnAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C007FF516C6F3115BB3A2EF5261492C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEB90BA800125022381A37DF14EF939 /* iOSDropDown.swift in Sources */,
+				1B637C619A94E1DCC06D923F5AFC833B /* iOSDropDown-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE490A513C2915D83D284D284416E1CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD2BDE405900863C77158A30449B99C8 /* Pods-ArunnApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED0AE9A395D326A6C08DFB5657455BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC2456C6011E7720EF0B61C36AB5B774 /* NSImage+SwiftyGif.swift in Sources */,
+				12C043525A25252B692AB7089BD72D51 /* NSImageView+SwiftyGif.swift in Sources */,
+				8A66DA13F49FDF9AC6E90A3F0E7DBCE2 /* ObjcAssociatedWeakObject.swift in Sources */,
+				E0BD10140EF6EB02E9238595F78DA5DB /* SwiftyGif-dummy.m in Sources */,
+				1E0F83CE320F1651CB12A8AB1CBD19D9 /* SwiftyGifManager.swift in Sources */,
+				D34E39CEB1FDD7AC45E4FBB408016703 /* UIImage+SwiftyGif.swift in Sources */,
+				FD42DF521EA338F958833869A844E603 /* UIImageView+SwiftyGif.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		64F5FA2961B436A4B569584476E5FCA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 9036478627DDE0B82084CF66051B21D7 /* PBXContainerItemProxy */;
+		};
+		6A418FD817907E168274A64B7EFC6EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ArunnApp";
+			target = 0BD3C6DE4A0D4203E2AAF08337A737FE /* Pods-ArunnApp */;
+			targetProxy = 1F2D19CC6F2550FCEDE4595BE8EE8A3A /* PBXContainerItemProxy */;
+		};
+		705C65669793710922333832299A773A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 7822DF2A06A0FF4849F2878294ADF1FB /* PBXContainerItemProxy */;
+		};
+		8CD307C3798150F6B378DD04BC12A553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 0D87124C6BB95646EE0945A3091E8FF5 /* PBXContainerItemProxy */;
+		};
+		9EFD851AA32BF928BFB0B1EF00B9ACCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Animation;
+			target = 03997FBAF5B702AACD935F13360DB1F1 /* Animation */;
+			targetProxy = 980D3ABAD7900E1FEAA28FA9B008E513 /* PBXContainerItemProxy */;
+		};
+		B23DA3F0B568614481E0F03D9683CB2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyGif;
+			target = 15AEBAFA43912F898FC2E1A73025C946 /* SwiftyGif */;
+			targetProxy = 72368344792FDD705D3358D9242CB153 /* PBXContainerItemProxy */;
+		};
+		B96AF3F807FD9AAAA6E9B1C043AD8A6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iOSDropDown;
+			target = 3C76CE6CD60B1CE55A174F03CC59AE17 /* iOSDropDown */;
+			targetProxy = 0FBC40A1503E1DB2C00C9318D6285DC2 /* PBXContainerItemProxy */;
+		};
+		C0B6C666FC64B183C0C38396DEBDD4A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 02AA00A1F69CA5FE7CA1E7B428CA7C21 /* PBXContainerItemProxy */;
+		};
+		F77F1B063835FBE20CEA1B3EAB06B549 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Animation;
+			target = 03997FBAF5B702AACD935F13360DB1F1 /* Animation */;
+			targetProxy = 21F8DFD4638102CF751BFCDEF5A55705 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0657E6247C7E8744275AACEBAB511440 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1720ED39B368471109DA6851B7AB9A33 /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		139E73F87E5F4500A172FC2E8F66F89D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CD2D5F437BD5D86AF161AEE75E388FA /* iOSDropDown.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1AC7B915D20758332722DE0E1F05A3B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03670071E43C1C891E2D976BA636702A /* SwiftyGif.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26988619FA1D91BE68AD141928ABD226 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840BA121E9694531D75F862B88F55BCD /* Animation.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Animation/Animation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Animation/Animation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Animation/Animation.modulemap";
+				PRODUCT_MODULE_NAME = Animation;
+				PRODUCT_NAME = Animation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		44EA153F563367AD3CC2DBD1045112BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1444B09721C73D24CF5DE623AEB702D0 /* Pods-ArunnApp-ArunnAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6B7CCD0B6BDAA357A56EC0C811ED1F3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64B4AB048C4264519DB7A11E462EF2EB /* Pods-ArunnApp-ArunnAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnApp-ArunnAppUITests/Pods-ArunnApp-ArunnAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D90F1008C994DAD0D0B52244DEBE9C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76CDB30B7CB2624F979A0EA49978C425 /* Pods-ArunnApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADCDD97CBAA1596CE72564D00BC75C27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8AD4483061A22838CBADA2F2F1E29A4 /* Pods-ArunnAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD3DF22C06A75D4818072451B58CE4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 998C9CE4E0C8CE75DD579F518F4CB9F2 /* iOSDropDown.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iOSDropDown/iOSDropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iOSDropDown/iOSDropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/iOSDropDown/iOSDropDown.modulemap";
+				PRODUCT_MODULE_NAME = iOSDropDown;
+				PRODUCT_NAME = iOSDropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF569B61E6DD7C838DDE89D4C21216FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADAA03342C31E861FB532ED5A0659A3 /* Pods-ArunnApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnApp/Pods-ArunnApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A1E8F7CB8920D5E127279E92A77AF21 /* SwiftyGif.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyGif/SwiftyGif-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyGif/SwiftyGif-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftyGif/SwiftyGif.modulemap";
+				PRODUCT_MODULE_NAME = SwiftyGif;
+				PRODUCT_NAME = SwiftyGif;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D040F16EAEE2A56C9EF1071C92572F00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F875F5CA4C544F226E33A5D1D03D2592 /* Animation.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Animation/Animation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Animation/Animation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Animation/Animation.modulemap";
+				PRODUCT_MODULE_NAME = Animation;
+				PRODUCT_NAME = Animation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D2687A86DC451B10F5EB8868BD7A77CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD98E5FD3F8FC1F4CE4E62A130AF99C /* Pods-ArunnAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunnAppTests/Pods-ArunnAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC690621027EA58B5D021A1004DD63B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BBA500CC22538E79D20D3BD58397DFD /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		007D7B90E413A2AA89F3BDE44F5E5133 /* Build configuration list for PBXNativeTarget "Pods-ArunnAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCDD97CBAA1596CE72564D00BC75C27 /* Debug */,
+				D2687A86DC451B10F5EB8868BD7A77CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0657E6247C7E8744275AACEBAB511440 /* Debug */,
+				EC690621027EA58B5D021A1004DD63B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BB71DF8A78DA9184B370DFCE2E4A9F5 /* Build configuration list for PBXNativeTarget "iOSDropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				139E73F87E5F4500A172FC2E8F66F89D /* Debug */,
+				BD3DF22C06A75D4818072451B58CE4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05C6D2B00EBDA80C2DA568C561B5DE6 /* Build configuration list for PBXNativeTarget "Pods-ArunnApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF569B61E6DD7C838DDE89D4C21216FA /* Debug */,
+				8D90F1008C994DAD0D0B52244DEBE9C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B79A637AD5F692B2E1CD67B68B10C573 /* Build configuration list for PBXNativeTarget "Pods-ArunnApp-ArunnAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B7CCD0B6BDAA357A56EC0C811ED1F3C /* Debug */,
+				44EA153F563367AD3CC2DBD1045112BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C867C5A40F81096D616EDC7F38540A72 /* Build configuration list for PBXNativeTarget "SwiftyGif" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C328EB6A9839E4AA5F9202344E3D8D7F /* Debug */,
+				1AC7B915D20758332722DE0E1F05A3B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39C6D251949592BEAA346785EEA88CF /* Build configuration list for PBXNativeTarget "Animation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26988619FA1D91BE68AD141928ABD226 /* Debug */,
+				D040F16EAEE2A56C9EF1071C92572F00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

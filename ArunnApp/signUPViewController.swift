@@ -19,35 +19,11 @@ class signUPViewController: UIViewController,UITextFieldDelegate {
     
     @IBOutlet weak var emailTXT: UITextField!
     
-    {
-        
-        didSet{
-            emailTXT.setView(image: UIImage.init(named: "user")!)
-            emailTXT.tintColor = .darkGray
-//            paswd.isSecureTextEntry = true
-        }
-        
-    }
     @IBOutlet weak var passwordTXT: UITextField!
     
-    {
-        
-        didSet{
-            passwordTXT.setView(image: UIImage.init(named: "password")!)
-            passwordTXT.tintColor = .darkGray
-//            passwordTXT.isSecureTextEntry = true
-          }
-     }
+   
     @IBOutlet weak var confirmTXT: UITextField!
     
-    {
-        
-        didSet{
-            confirmTXT.setView(image: UIImage.init(named: "password")!)
-            confirmTXT.tintColor = .darkGray
-//            passwordTXT.isSecureTextEntry = true
-          }
-     }
     @IBOutlet weak var signupBTN: UIButton!
     
     
@@ -65,6 +41,30 @@ class signUPViewController: UIViewController,UITextFieldDelegate {
         self.googlrBTN.setImage(UIImage(named: "google"), for: .normal)
         self.fbBTN.setImage(UIImage(named: "facebook (2)"), for: .normal)
         self.backBTN.setImage(UIImage(named: "previous"), for: .normal)
+        
+        let emailletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.emailTXT.frame.size.height))
+        self.emailTXT.leftView = emailletfpaddingView
+        self.emailTXT.leftViewMode = .always
+        
+        let emailimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        emailimg.image = UIImage.init(named: "mail")
+        emailletfpaddingView.addSubview(emailimg)
+        
+        let passletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.passwordTXT.frame.size.height))
+        self.passwordTXT.leftView = passletfpaddingView
+        self.passwordTXT.leftViewMode = .always
+        
+        let passimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        passimg.image = UIImage.init(named: "password")
+        passletfpaddingView.addSubview(passimg)
+        
+        let conpassletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.confirmTXT.frame.size.height))
+        self.confirmTXT.leftView = conpassletfpaddingView
+        self.confirmTXT.leftViewMode = .always
+        
+        let conpassimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
+        conpassimg.image = UIImage.init(named: "password")
+        conpassletfpaddingView.addSubview(conpassimg)
 
 
     
@@ -211,19 +211,7 @@ class signUPViewController: UIViewController,UITextFieldDelegate {
     }
     
     }
-extension UITextField {
-  func setView(image: UIImage) {
-    let iconView = UIImageView(frame: CGRect(x: 10, y: 10, width: 25, height: 25)) // set your Own size
-    iconView.image = image
-    let iconContainerView: UIView = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 45))
-    iconContainerView.addSubview(iconView)
-    leftView = iconContainerView
-    leftViewMode = .always
-    self.tintColor = .lightGray
-  }
-    
-    
-}
+
     
     
 

@@ -72,7 +72,7 @@ class signinViewController: UIViewController, UITextFieldDelegate {
         self.usernameTXT.leftViewMode = .always
         
         let emailimg = UIImageView(frame: CGRect(x: 10, y: 10, width: 30, height: 30))
-        emailimg.image = UIImage.init(named: "user")
+        emailimg.image = UIImage.init(named: "mail")
         emailletfpaddingView.addSubview(emailimg)
         
         let passletfpaddingView = UIView(frame: CGRect(x: 0, y: 0, width: 60, height: self.passwordTXT.frame.size.height))
